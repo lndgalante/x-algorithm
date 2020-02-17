@@ -1,0 +1,24 @@
+{
+  "name": "backend-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.27.0",
+    "lodash.samplesize": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/ramda": "^0.26.41",
+    "@types/lodash.samplesize": "^4.2.6",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5",
+    "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "scripts": {
+    "test:watch": "jest --watchAll",
+    "dev": "tsnd --respawn index.ts",
+    "benchmarks": "tsnd benchmarks.ts"
+  }
+}
